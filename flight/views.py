@@ -1,3 +1,4 @@
+from django_filters import FilterSet
 from django.shortcuts import render, HttpResponse, HttpResponseRedirect
 from django.urls import reverse
 from django.http import JsonResponse
